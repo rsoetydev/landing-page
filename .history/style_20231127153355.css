@@ -1,0 +1,17 @@
+
+
+:root {
+    --dark: #1F2937;
+    --gray: #E5E7EB;
+    --white: #F9FAF8;
+    --blue: #3882F6;
+
+}
+
+
+
+h1{
+    font-size:48px;
+    font-weight:bolder;
+
+}

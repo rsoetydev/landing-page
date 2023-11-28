@@ -1,0 +1,154 @@
+
+
+:root {
+    --dark: #1F2937;
+    --gray: #E5E7EB;
+    --white: #F9FAF8;
+    --blue: #3882F6;
+
+    font-family: 'Roboto', arial;
+}
+
+body{
+    background-color:var(--white);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size:48px;
+    font-weight:900;
+    color: var(--white);
+}
+
+p{
+    color: var(--gray);
+    font-size: 18px;
+}
+
+h2{
+    color: var(--white);
+    font-size: 24px;
+    font: weight 600px;
+    padding:0px;
+    margin: 0px;
+}
+
+.info-title {
+    font-size: 36px;
+    color:var(--dark);
+    font-weight: 900;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color:var(--dark);
+}
+
+button{
+    background-color: var(--blue);
+    color:var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.header{
+    display:flex;
+    background-color: var(--dark);
+    justify-content: flex-end;
+    gap:30px;
+    padding: 0px 600px;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.hero{
+    display:flex;
+    background-color: var(--dark);
+    padding: 100px 600px;
+    height: 600px;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-image-cont{
+    background-color:var(--gray);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+}
+
+.info-title{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    padding: 0 600px;
+}
+
+.item-cont{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.item-pic{
+    height:200px;
+    flex-grow: 1;
+    border-style: solid;
+    border-color: var(--blue);
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.item-text{
+    text-align: center;
+}
+
+.quote{
+    background-color: var(--gray);
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    padding: 0px 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote-author{
+    color:var(--dark);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.c2a{
+    background-color: var(--blue);
+}
+
+.footer{
+    background-color: var(--dark);
+}
