@@ -174,13 +174,8 @@ h3{
     border-style: solid;
     border-color: var(--white);
     border-width: 2px;
-    align-self: center;
 }
 
 .footer{
     background-color: var(--dark);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 }

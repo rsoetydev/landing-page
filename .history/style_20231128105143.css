@@ -161,6 +161,7 @@ button{
     justify-content: space-around;
     padding: 50px 0px;
     border-radius: 20px;
+    flex-grow: 0;
 }
 
 h3{
@@ -174,13 +175,9 @@ h3{
     border-style: solid;
     border-color: var(--white);
     border-width: 2px;
-    align-self: center;
+    flex-grow: 0;
 }
 
 .footer{
     background-color: var(--dark);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 }

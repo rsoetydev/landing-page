@@ -158,29 +158,10 @@ button{
 .c2a-sub{
     background-color:var(--blue);
     display:flex;
-    justify-content: space-around;
-    padding: 50px 0px;
-    border-radius: 20px;
-}
-
-h3{
-    color: var(--white);
-    font-size: 32px;
-    font-weight: 600;
-
-}
-
-.c2a-sign-up{
-    border-style: solid;
-    border-color: var(--white);
-    border-width: 2px;
-    align-self: center;
+    justify-content: space-between;
+    padding: 100px 200px;
 }
 
 .footer{
     background-color: var(--dark);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 }
